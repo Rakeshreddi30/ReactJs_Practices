@@ -1,0 +1,115 @@
+.container2{
+    color:black;
+    border:1px solid grey;
+    background-color: white;
+    width:400px;
+    border-radius: 5px;
+    padding:10px;
+}
+.container2-main{
+    display:flex;
+
+}
+.name2{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    /* display: grid; */
+    padding-left: 8px;
+    text-align: left;
+}
+.name2-head{
+     display: flex;
+}
+.name2-head p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(141, 140, 140);
+    font-size: 12px;
+
+}
+.name2-head-p2{
+    padding-left: 195px;
+    margin-top: 0px;
+}
+.name2 h4{
+    margin:0px;
+    padding-top: 7px;
+    /* font-family: 'Source Sans'; */
+}
+
+.name2-p p{
+    margin:0px;
+    padding-bottom: 3px;
+    color: rgb(141, 140, 140);
+    font-weight: 400;
+    font-size: 14px;
+}
+.image2{
+    border-radius: 50%;
+    height:50px;
+    width: 50px;
+    margin-top: 5px;
+    /* padding-top: 8px; */
+}
+.content p{
+    margin:0px;
+    text-align: left;
+}
+.content-span{
+    display: block;
+    text-align: right;
+    padding-right: 5px;
+}
+.icons{
+    text-align: start;
+}
+.thumb{
+    size:3px;
+    height:15px;
+    width:15px;
+    color:rgb(71, 71, 245);
+}
+.heart{
+    size:3px;
+    height:15px;
+    width:15px;
+    color:rgb(250, 33, 33);
+}
+.content-icon{
+    display: flex;
+    gap:188px;
+}
+.buttons{
+    background-color: none;
+    border: none;
+}
+.custom-button {
+    background: none;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+  .custom-button:hover {
+    color: black;
+  }
+  .buttons-fun {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center them horizontally */
+    /* gap: 4px; Space between icon and text */
+  }
+  
+  .thumbup {
+    width: 24px; /* Adjust icon size */
+    height: 24px;
+    color: gray;
+  }
+  
+  .like-text {
+    font-size: 14px;
+    color: gray;
+    margin: 0px;
+  }

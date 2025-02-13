@@ -1,0 +1,57 @@
+.container{
+    color:black;
+    border:1px solid grey;
+    background-color: white;
+    width:400px;
+    border-radius: 5px;
+    padding:10px;
+}
+.container-main{
+    display:flex;
+
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+    /* display: grid; */
+    padding-left: 8px;
+    text-align: left;
+}
+.name h4{
+    margin:0px;
+    padding-top: 7px;
+    /* font-family: 'Source Sans'; */
+}
+.name p{
+    margin:0px;
+    padding-bottom: 3px;
+    color: rgb(141, 140, 140);
+}
+.image{
+    border-radius: 50%;
+    height:40px;
+    width: 40px;
+}
+.name-p{
+    display: flex;
+  align-items: center; 
+    gap: 10px
+}
+.name-p p:nth-child(2){
+    color:rgb(4, 103, 143);
+}
+.container-btn button{
+     background-color:white;
+     color: rgb(56, 56, 56);
+     border: 1px solid lightgray;
+     padding: 7px;
+     border-radius: 20px;
+     /* gap:10px; */
+     /* margin-right: 5px; */
+}
+.container-btn{
+    display: flex;
+    /* grid-template-columns: auto auto auto; Adjust number of columns as needed */
+    gap: 4px;
+}

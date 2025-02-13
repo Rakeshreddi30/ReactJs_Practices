@@ -1,0 +1,71 @@
+
+/* Parent container styling */
+.container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+   width: 600px; 
+   /* display: block; */
+  /* margin: auto; */
+}
+
+/* Profile section styling */
+.profileSection {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  width: 600px;
+  /* margin-bottom: 15px; */
+}
+.nameSection{
+  flex: 1;
+}
+.profileImage {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+/* Stats section styling */
+.stats {
+  display: flex;
+  flex: 3;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.statItem {
+  text-align: center;
+}
+
+.statNumber {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.followButton {
+  padding: 5px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  width:100px;
+}
+.button{
+  display: flex;
+  gap:5px;
+}

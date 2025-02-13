@@ -1,0 +1,14 @@
+.items{
+    display:flex;
+    border-bottom: 1px solid #ccc;;
+    padding:5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+.labels{
+    flex:1;
+}
+.quantity{
+    /* flex:1; */
+    text-align: right;
+}
